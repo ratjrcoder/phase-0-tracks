@@ -2,7 +2,7 @@
 
 **Instructions: ** Define each of the following Git concepts.
 
-* What is version control? Version control is a process that allow us to see the entire history of a file and merge revisions made by different people.
+* What is version control? Version control is a process that permits us to see the entire history of a file and merge revisions made by different people.
 
 * Why is it useful? Version control allow for team development creating scale. It also reduces the risk of catastrophic failure or loss in the development process by enabling distribution of code and changes to multiple terminals. 
 
