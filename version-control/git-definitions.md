@@ -16,6 +16,6 @@ A commit is a Git save point.
 A good commit message is detailed and states what changes have been made since last commit.
 
 * What is a merge conflict? 
-A merge conflict is a feature in Git that flags item that if merged would result in data loss our erasure resulting from merged data competing for the same space. Merge conflicts are resolved by editing the data then and executing a new commit ($ git add [file]   $git commit) 
+A merge conflict is a feature in Git that flags item that, if merged, would result in data loss our erasure resulting from merged data competing for the same space. Merge conflicts are resolved by editing the data then and executing a new commit ($ git add [file]   $git commit) 
 
 Perhaps, one way to avoid merge conflicts is to create swimlane policies that reserve specific lines for specific features?
