@@ -3,25 +3,85 @@
     <title>Dog tags</title>
   </head>
   <h1>Dog tags: Pawing through the HTML5 elements </h1>
-  <p>Instructions: Expand each of the text area windows to view the unrendered code.
-    <ul>
-        <li><strong>p</strong>: Element represents a paragraph of text </li><br>Example: <<textarea><p>This is a paragraph</p></textarea>> would render like this - <p>This is a pragraph</p>
-        <br><br>
+    <p>[Note: HTML elements can be structural or semantic. Structural (e.g. <em>head</em> and <em>body</em>) elements deal primarily with the logical format of the page and are meaningful for browsers and search engines. They also create a predictable format that makes code easy to outling and read. Today,Universal access to the web is enabled by tools such as <em>screen readers</em>. To be effective, theses tools require specific cues to signal semantic changes. For this important reason, HTML includes <em>semantic</em> elements (e.g. <em>em</em>, <em>strong</em> and<em>blockquote</em>) as well. Since Web accessibilty is of particular importance to me. In this Challenge and throughout my DBC tenure, I will place a particular emphasis on this area of the art of Web Design.]</p>
+    <br>
 
-        <li><strong>strong</strong>: Element gives text a strong "importance", usually displayed in bold </li><br>Example: <<textarea>HTML gives <strong>symantic</strong> meaning</textarea>> would render like this - <p>HTML gives <strong>symantic</strong> meaning</p>
-        <br><br>
+  <h2>Definitions:</h2>
 
-        <li><strong>em</strong>: Element marks text that has a stressed emphasis. The <strong><em>em</em></strong><br> tag can be nested with each level of nesting indecating a greater degree of emphasis.</li> Example: <<textarea><p><em>The em tag <em><em>indicates stress</em></em> is especially helpful to screen reader tool as it signal text that should be <em><em>stressed</em></em></em>.</p></textarea> would render like this - <p>The em tag <em><em>indicates stress</em></em> is especially helpful to screen reader tool as it signal text that should be <em><em>stressed</em></em></em>.</p></textarea></p></pre>
-        <br><br>
+    <dl>
+        <dt><strong>p</strong></dt>
+        <dd>Element is structural and represents a paragraph of text.</dd>
+        <dd>Example:
+              <br>
+              <img src="p_element.png">
+              <br></dd>
+        <dd>would render like this in a browser:
+              <br>
+              <p>This is a paragraph</p></dd>
 
-        <li><strong>ul</strong> and <strong>li</strong>: These two elements combined represent an unordered list normally rendered as a bulleted list (similar to the format displayed on this page) </li><br>Example: <textarea><ul>Bulleted list<li>Lassie</li><li>Rin Tin Tin</li><li>Snoopy</li></ul></textarea> would render like this - <p><ul>Unordered list>>><li>Lassie</li><li>Rin Tin Tin</li><li>Snoopy</li></ul></p>
-        <br><br>
+        <dt><strong>strong</strong></dt>
+        <dd>Element a <em>semantic</em> markup that signals a strong "importance", usually represented visually by bolded text.</dd>
+        <dd>Example:
+              <br>
+              <img src="strong.png">
+              <!--HTML gives <strong>semantic</strong> meaning. Insert code above-->
+              <br></dd>
+        <dd>would render like this in a browser:
+              <br>
+              <p>HTML gives <strong>symantic</strong> meaning</p>
 
-        <li><strong>ol</strong> and <strong>li</strong>: These two elements combined represent an ordered list normally rendered as a numbered list (similar to the format displayed on this page) </li><br>Example: <textarea><ol>Bulleted list<li>Lassie</li><li>Rin Tin Tin</li><li>Snoopy</li></ol></textarea> would render like this - <p><ol>Ordered list>>><li>Lassie</li><li>Rin Tin Tin</li><li>Snoopy</li></ol>
-        <br><br>
+        <dt><strong>em</strong></dt>
+            <dd>Element is also a semantic markup and signals a stressed emphasis. The <strong><em>em</em></strong><br> tag can be nested with each level of nesting indecating a greater degree of emphasis.</dd>
+            <dd>Example:
+                  <br>
+                  <img src="em.png">
+                  <br></dd>
+            <dd>would render like this: </dd>
+            <dd>The <em>em</em> tag indicates <em>stress</em> and is especially helpful to screen reader tools for conveying tone.</dd>
 
-        <li><strong>a</strong>:This element also know as <emphasis>anchor</emphasis> element creates a hyperlink to other web pages, files, locations within the same page, email addresses, or a any other URL. </li><br>Example: <<textarea><p>Keeping with the theme here are some DBC Dog Tags: <a href="dbc_tag.png">Dog Tag (front)</a> and <a href="dbc_tag_back.png">Dog Tag (back)</a></p></textarea>> would render like this - <p>Keeping with the theme here are some DBC Dog Tags: <a href="dbc_tag.png">Dog Tag (front)</a> and <a href="dbc_tag_back.png">Dog Tag (back)</a></p></pre>
-        <br><br>
+        <dt><strong>ul</strong> and <strong>li</strong></dt>
+            <dd>These two elements combined represent an unordered list normally rendered as a bulleted list (similar to the format displayed on this page)</dd>
+            <dd>Example:
+                <br>
+                <img src="ul.png">
+                <br>
+            </dd>
+            <dd>Would render like this:</dd>
+            <br>
+            <dd>
+                <ul>
+                  <li>Lassie</li>
+                  <li>Rin Tin Tin</li>
+                  <li>Snoopy</li>
+                </ul>
+            </dd>
+            <br>
+        <dt><strong>ol</strong> and <strong>li</strong>: These two elements combined represent an ordered list normally rendered as a numbered list (similar to the format displayed on this page) </dt><br>
+            <dd>Example:
+                <br>
+                <img src="ol.png">
+                <br>
+            </dd>
+            <dd>Would render like this:</dd>
+            <br>
+            <dd>
+                <ol>
+                  <li>Lassie</li>
+                  <li>Rin Tin Tin</li>
+                  <li>Snoopy</li>
+                </ol>
+              </dd>
+
+        <dt><strong>a</strong></dt>
+            <dd>This element also know as <emphasis>anchor</emphasis> combines with the href attribute to create a hyperlink to other web pages, files, locations within the same page, email addresses, or a any other URL.</dd>
+            <dd>Example:
+                <br>
+                <img src="a.png">
+                <br>
+            </dd>
+            <dd>Would render like this in a browser:</dd>
+            <dd>Keeping with the theme we present a couple DBC Dog Tags: <a href="dbc_tag.png">Dog Tag (front)</a> and <a href="dbc_tag_back.png">Dog Tag (back)</a></dd>
+        <br><b
     </ul>
   </p>
 </body>
