@@ -1,0 +1,56 @@
+Release 0
+- For arriving at known location greater than ground-level using elevator
+    - Enter building
+    - Until footsteps heard, or until 3 minutes, Park mode:
+    - If footsteps heard:
+    -   "Excuse me. Please tell me where is the elevator?"
+            -  Wait 5 seconds for response
+            -  Use voice recognition to convert responde to instructions
+            -  Else, if no response
+                - Enter audible search and finded mode:
+                -  Seek elevator zone (location with combination beeping sound and mechanical sliding doors)
+    -  Procede to elevator.
+    -  Using VRSIT (Vertically Recognizing Scanner and Impact Tool) identify elevator directional button indicating up and down.
+        - Press Up button (LaserDart)
+        - Until elevator door opens
+            - Park at baseboard below elevator button
+    - Elevator doors open
+        - Call out "Excuse, me I am a robot" and enter elevator
+        - AVOID human collisions.
+        - Procede and center on back wall
+    - Activate VRSIT to identify button panel
+        - Until floor location is pressed, or until 5 seconds:
+            - Fix LaserDart targeting on floor
+            - Wait 5 seconds
+        - If not selected:
+            - Discharge LaserDart
+    - Once elevator reaches target floor, evacuate expediciously.AVOID human collisions.
+
+Release 1. Sock Sorting
+A common task in my life that has yet to be solved is the venerable sock basket, loaded with unmatched socks. This algorithm suggest a way to solve it, until the next load of laundry
+
+- For each sock in a pile of socks:
+    -TotalMatch equals False
+    - Until you identify a match, or until no socks remain in the Piles A & B
+        - Pull subject sock from Pile A
+        - Pull match candidate sock from Pile A and compare
+          -If match = yes
+              - Fold together
+              - Set aside for storage
+          - Elsif
+              - Match candidate doesn't match
+              - Place match candidate sock in Pile B
+                  - While there are socks in Pile A
+                      -Repeat
+                  - Until there are no socks in Pile A
+                        - If Pile A is empty
+                        - Toss unmatched subject sock in disgard pile
+                        - Switch Pile lables
+        -Combine Pile A and B
+              Continue Sort Loop
+        -End if no socks in Piles A & B
+            Complete Sort
+        -TotalMatch equals True
+
+
+
