@@ -1,9 +1,5 @@
 def vamp_detection
 #set variables for logic tests"
-  vamps_like_garlic = false
-  vamps_like_sunshine = false
-  vamps_age_yob_align = false
-  vamps_needs_insurance = false
 
   print "What is your name?"
   name = gets.chomp
@@ -17,13 +13,28 @@ def vamp_detection
   print "What year were you born?"
   yob = gets.chomp
   yob = yob.to_i
-  if Time.new.year - yob != age
-  end
-    print "You may be a vampire!"
-  print "Our company cafeteria serves garlic bread."
-  print "Should we order some garlic bread for you? (y/n)"
+
+  print "Our company cafeteria serves garlic bread. Should we order some garlic bread for you? (y/n)"
   garlic = gets.chomp
-  print "Would you like to enroll in the company's health insurance? (y/n)"
+     if garlic == "y"
+        garlic = true
+      elsif garlic == "n"
+        garlic = false
+      else
+           puts "Please answer 'y' or 'n'"
+     end
+   print "Would you like to enroll in the company's    health insurance? (y/n)"
+     insurance = gets.chomp
+       if insurance == "y"
+           insurance= true
+       elsif insurance == "n"
+         insurance = false
+       else
+         puts "Please answer 'y' or 'n'"
+       end
+
+  if Time.new.year - yob == age &&
+  end
 end
 # insurance = gets.chomp
 # puts "name: #{name}"
