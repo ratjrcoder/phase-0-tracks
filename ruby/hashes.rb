@@ -31,18 +31,6 @@ Establish hash [client_profile]
 #    referral: "Maxwell Bradley",
   }
 
-    client_profile = {
-    name: "Meredit Vanderbilt",
-    phone: "(858)621-7721",
-    email: "mvanderb@cox.com",
-    age: 37,
-    children: 3,
-    sqft: 5000,
-    decor_theme: "Novo Andalucian",
-    proposal_sent: TRUE,
-    referral: "Maxwell Bradley",
-  }
-
   client_profile = {
     name: "Meredit Vanderbilt",
     phone: "(858)621-7721",
